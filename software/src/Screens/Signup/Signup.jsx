@@ -120,7 +120,7 @@ const Signup = () => {
                     </button>
                 </form>
                 <p>or</p>
-                <p className="login-link" onClick={() => navigate('/login')}>Already have a profile?</p>
+                <p className="login-link" onClick={() => navigate('/')}>Already have a profile?</p>
             </div>
         </div>
     );
