@@ -45,7 +45,7 @@ const Signup = () => {
             });
 
             console.log('User signed up and data stored:', user.uid);
-            navigate('/login');
+            navigate('/');
         } catch (err) {
             console.error('Error during signup:', err);
             setError('Failed to sign up. Please try again.');
